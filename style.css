@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+
+ }
+
+body {
+    background-color: #F5A5D1 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     }
+
+img {
+      max-width: 100%;
+    }
+
+.container {
+             max-width: 1200px;
+             margin: 0 auto;
+
+           } 
+
+.header {
+          background-image: url(imagenes/tegumento-piel-fina.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover ;
+          display: flex;
+          align-items: center;
+          min-height:80vh ;
+          padding: 110px 10px;
+          justify-content: space-between;
+
+        }
+
+.menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+
+.logo{
+       color:#F73149 ;
+       font-size: 30px;
+       font-weight: 700;
+       text-transform: capitalize;
+       justify-content: space-between;
+       margin-block: 30px;
+       text-align: center;
+
+     }
+
+.menu .navbar ul li {
+                      position: relative;
+                      float: left;
+
+                    }
+
+.menu .navbar ul li a {
+                        font-size: 20px;
+                        padding: 18px;
+                        color: #741A0E;
+                        font-weight: 700;
+                        display: block;
+                        justify-content: space-between;
+                        margin-block: 30px;
+                        text-align: center;
+                      }
+
+.menu .navbar ul li a:hover {
+                              color: #F73149;
+                            }
+
+#menu {
+         display: none;
+      }
+
+.menu-icono {
+              width: 30px;
+            }
+
+.menu label {
+              cursor: pointer;
+              display: none;
+
+            }
+
+.header-content {
+                  display: flex;
+                }
+
+.header-txt {
+              flex-basis: 50%;
+            }
+
+.header-txt p {
+                 font-size: 20px;
+                 color: #482446;
+                 margin-block: 100px; 
+                 text-align: left;
+               }
+
+.button {
+          display: flex;
+        }
+
+.btn-1, .btn-2 {
+                 display: inline-block;
+                 padding: 10px 35px;
+                 border: 2px solid #F73149;
+                 border-radius: 40px;
+                 margin-right: 25px;
+                 font-size: 20px;
+                 color: #F73149;
+                 font-weight: 700;
+
+               }
+
+.btn-1:hover {
+               background-color: #FD87A6;
+             }
+
+.entretenimiento {
+                   padding: 100px;
+                   text-align: center;
+                   
+                 }
+
+h2 {
+     color:#482446 ;
+     font-size: 35px;
+     margin-block: 80px;
+     text-align: left;
+     padding: 30px;
+
+   }
+
+.entretenimiento-content {
+                           display: flex;
+                           text-align: justify;
+                           align-items: center;
+
+                         }
+
+.entretenimiento-content img {
+                               width: 150px;
+                             }
+
+.pelicula-1 {
+             display: flexbox;
+            }
+
+
+.pelicula-txt {
+                padding: 50px 30px;
+              }
+
+
+.playlist-1 {
+             display: flexbox;
+            }
+
+.playlist-txt {
+               padding: 50px 30px;
+              }
+
+.deporte-1 {
+             display: flexbox; 
+           }
+
+.deporte-txt {
+              padding: 50px 30px;
+             }
+h3 {
+     font-size: 20px;
+     color: #D04000;
+     margin-bottom: 20px;
+   }
+
+.btn-2 {
+         padding: 5px 25px;
+         background-color: #FD87A6;
+         margin-right: 0;
+         cursor: pointer;
+       }
+
+.social {
+          padding: 100px;
+        }
+
+.social-content {
+                  
+                  text-align: center;
+                  padding: 50px;
+                  border-radius: 40px;
+
+                }
+
+form {
+       display: flex;
+       justify-content: center;
+       margin-top: 20px;
+     }
+
+input{ 
+       padding: 18px 25px;
+       background-color: #F8C8E5;
+       border: 0;
+       border-radius: 25px;
+       outline: none;
+       margin-right: 10px;
+       color: #000;
+       font-size: 17px;
+     }
+
+::placeholder{
+               color: #000;
+               font-size: 17px;
+             }
+
+@media (min-width:600px){
+                          body {
+                                 background-color: #9CF2DB; 
+                               }
+
+                          .img{
+                                 width: 50%;
+                              }
+                        }
+
+@media (max-width:800px){
+                          body {
+                                 background-color: #BBE7FD; 
+                               }
+
+                          .img{
+                                width: 120%;
+                              }
+                        }
+
